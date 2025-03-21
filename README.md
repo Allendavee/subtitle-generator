@@ -11,3 +11,6 @@ Features include single-language support (English only for now), parallel proces
 # How To Use
 * The program would prompt you to add the path to the audio file
 * It would ask you for the name you want to give the srt file (include ".srt" extension to your file name)
+# ___________________________________________________________________________________________________________________________
+# Testing and Output
+* Check the subtitle.srt file to see the transcription of this audio (https://drive.google.com/file/d/1Raz0vmhNKbcsaCtg9r-6WeDdg9TWdMyI/view?usp=sharing)
