@@ -6,7 +6,7 @@ Features include single-language support (English only for now), parallel proces
 # Key Notes
 * Ensure your dependencies are up to date
 * Ensure to install ffmpeg and Whisper-rs (You can use brew to do this on MacOS)
-* Download and add the whisper model to the models folder (curl -L -H "Hugging-Secrete" -o ggml-base.en.bin https://huggingface.co/openai/whisper/resolve/main/ggml-base.en.bin)
+* Download and add the whisper model to the "models" folder (curl -L -H "Hugging-Secrete" -o ggml-base.en.bin https://huggingface.co/openai/whisper/resolve/main/ggml-base.en.bin)
 
 # How To Use
 * The program would prompt you to add the path to the audio file
@@ -14,3 +14,10 @@ Features include single-language support (English only for now), parallel proces
 # ____________________________________________________
 # Testing and Output
 * Check the subtitle.srt file to see the transcription of this audio (https://drive.google.com/file/d/1Raz0vmhNKbcsaCtg9r-6WeDdg9TWdMyI/view?usp=sharing)
+
+# Challenges Faced 🤣🤣
+* The model was transcribing gibberish initially, I thought maybe I wasn't using the right model or I needed to pay to use the advanced trained model
+* I had to go back to the Whisper documentation to read up
+* I found out the audio has to be converted to a particular format using ffmpeg (check the convert_audio function)
+* I am still learning how to be a better programmer in Rust but I am excited I could pull this off
+* Thanks to Rust compiler debugging wasn't so hard
