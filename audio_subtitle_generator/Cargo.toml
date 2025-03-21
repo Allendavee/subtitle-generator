@@ -1,0 +1,8 @@
+[package]
+name = "audio_subtitle"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+whisper-rs = "0.14.2"
+hound = "3.4"
