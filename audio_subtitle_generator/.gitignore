@@ -1,3 +1,4 @@
 /target
 /models/ggml-base.en.bin
-.DS-Store
+/.DS-Store
+
