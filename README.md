@@ -22,6 +22,7 @@ so I decided to build this since I am learning how to program in Rust. Though I 
 * The model was transcribing gibberish initially, I thought maybe I wasn't using the right model or I needed to pay to use the advanced trained model
 * I had to go back to the Whisper documentation to read up
 * I found out the audio has to be converted to a particular format using ffmpeg (check the convert_audio function)
+* Had some version issues with ffmpeg initially, I fixed it by updating the version in the dependecies
 * I am still learning how to be a better programmer in Rust but I am excited I could pull this off
 * Thanks to the Rust compiler debugging wasn't so hard
 
