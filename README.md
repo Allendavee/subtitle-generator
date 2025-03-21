@@ -2,6 +2,10 @@
 A fast and efficient subtitle generator built with Rust.
 This tool scans video/audio files, detects speech using whisper_rs, and generates .srt subtitles with high accuracy and speed.
 Features include single-language support (English only for now), parallel processing, and robust error handling.
+
+I recently picked up Rust. After learning so much, I decided to build this project out of silent frustration.
+I love watching movies with subtitles, I've been following Suits LA but each new episode doesn't come with subtitles
+so I decided to build this since I am learning how to program in Rust. Though I have a little bit of experience in C, it wasn't so hard learning some Rust concepts.
 -----------------------------------------------------------------------------------------------------------------------------
 # Key Notes
 * Ensure your dependencies are up to date
@@ -23,4 +27,4 @@ Features include single-language support (English only for now), parallel proces
 * Thanks to the Rust compiler debugging wasn't so hard
 
 # What Next
-* I'll keep learning looking at improving this project to handle other languages
+* I'll keep learning and looking at improving this project to handle other languages
