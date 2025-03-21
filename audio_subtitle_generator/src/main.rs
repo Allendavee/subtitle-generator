@@ -7,6 +7,7 @@ mod utils;
 fn main() {
     // Whisper model path
     let model_path = "models/ggml-base.en.bin";
+    let audio_path = "audio/audio.wav";
     println!("Enter Audio Path");
     let mut audio_path_cl = String::new();
     //Path to get audio file
@@ -14,7 +15,12 @@ fn main() {
         .read_line(&mut audio_path_cl)
         .expect("Failed to read line");
     // Path to extracted audio converted to string slice
-    let audio_path = audio_path_cl.trim();
+    let temp_audio_path = audio_path_cl.trim();
+    // Step 1: Convert audio
+    if let Err(e) = utils::convert_audio(temp_audio_path, audio_path) {
+        eprintln!("Conversion failed: {}", e);
+        return;
+    }
 
     // Check if file exists before processing
     if fs::metadata(audio_path).is_err() {

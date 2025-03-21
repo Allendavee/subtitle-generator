@@ -2,3 +2,4 @@
 /models/ggml-base.en.bin
 /.DS_Store
 /audio_subtitle_generator/.DS_Store
+/audio
