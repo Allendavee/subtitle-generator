@@ -1,4 +1,4 @@
 /target
 /models/ggml-base.en.bin
-/.DS-Store
-
+/.DS_Store
+/audio_subtitle_generator/.DS_Store
