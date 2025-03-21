@@ -20,4 +20,7 @@ Features include single-language support (English only for now), parallel proces
 * I had to go back to the Whisper documentation to read up
 * I found out the audio has to be converted to a particular format using ffmpeg (check the convert_audio function)
 * I am still learning how to be a better programmer in Rust but I am excited I could pull this off
-* Thanks to Rust compiler debugging wasn't so hard
+* Thanks to the Rust compiler debugging wasn't so hard
+
+# What Next
+* I'll keep learning looking at improving this project to handle other languages
